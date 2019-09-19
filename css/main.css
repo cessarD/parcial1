@@ -82,9 +82,11 @@ p{
     list-style: none;
     padding: 0;
     margin-top: 3em;
+	margin-bottom: 3em;
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
+	align-items: center;
 
 }
 
@@ -262,6 +264,22 @@ footer .social-links {
     text-decoration: none;
     
 }
+/*cambio en el tamaño de los iconos*/	
+.fab{
+		font-size: 70px;
+		margin: 10px;
+		
+	}
+.fas.fa-arrow-circle-down{
+	color:aqua;
+	font-size: 100px;
+	margin-bottom: 3rem;
+}
+.contact-form{
+	margin: 0% 4% 4% 4%;
+		
+	}
+
 
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
@@ -305,8 +323,6 @@ footer .social-links {
     }
 
 
-
-
     /*TODO: FALTA CSS */
 } 
 
@@ -317,8 +333,35 @@ footer .social-links {
 	nav ul li:last-child a:hover{
 		color: red;
 	}
+		.fab.fa-arrow-circle-down{
+		font-size: 1000px;
+		margin: 10px;
+	}
+	.fab.fa-arrow-circle-down:hover{
+		background: #0AC693;
+		color:blue;
+	}
 
-
+	.about .container{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-around;
+		align-content: center;
+		margin-bottom: 60px;
+	}
+	.about .container h2{
+		width: 100%;
+	}
+	.about .container .bio-info{
+		width: 50%;
+	}
+	.about .container .contact{
+		width: 40%;
+	}
+	.about .container .contact input:last-child{
+		width: 50%;
+	}
 
 }
 
