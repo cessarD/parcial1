@@ -271,9 +271,11 @@ footer .social-links {
 		
 	}
 .fas.fa-arrow-circle-down{
-	color:aqua;
 	font-size: 100px;
 	margin-bottom: 3rem;
+}
+.fas.fa-arrow-circle-down:hover{
+	color:aqua;
 }
 .contact-form{
 	margin: 0% 4% 4% 4%;
@@ -287,8 +289,10 @@ footer .social-links {
     .post ul {
         list-style: none;
         display: flex;
+		flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+		align-items: center;
     }
     
     .post ul li {
@@ -296,6 +300,7 @@ footer .social-links {
         max-height: 3500px;
         margin: 1rem 2rem;
         flex: 1 0 300px;
+        width: 80%;
     }
 
 
@@ -322,7 +327,6 @@ footer .social-links {
         margin-top: 1em;
     }
 
-
     /*TODO: FALTA CSS */
 } 
 
@@ -341,7 +345,14 @@ footer .social-links {
 		background: #0AC693;
 		color:blue;
 	}
-
+    .post ul {
+        list-style: none;
+        display: flex;
+		flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+		align-items: center;
+    }
 	.about .container{
 		display: flex;
 		flex-wrap: wrap;
