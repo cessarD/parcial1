@@ -267,18 +267,17 @@ footer .social-links {
 /*cambio en el tamaño de los iconos*/	
 .fab{
 		font-size: 70px;
-		margin: 10px;
+		margin: 0px 20px 100px;
+	   height: 10px;
+	  width: 60px;
 		
 	}
-.fas.fa-arrow-circle-down{
-	font-size: 100px;
-	margin-bottom: 3rem;
+footer .social-links .fab{
+	margin: 0px 20px 50px;
 }
-.fas.fa-arrow-circle-down:hover{
-	color:aqua;
-}
+
 .contact-form{
-	margin: 0% 4% 4% 4%;
+	margin: 0% 4% 6% 4%;
 		
 	}
 
@@ -333,18 +332,40 @@ footer .social-links {
 @media only screen and (min-width: 1024px) {
 
        /*TODO: FALTA CSS */
+	.header .logo{
+		height: 29.99px;
+	}
 	
+		#menu{
+		display: flex;
+		flex-direction: row;
+		width: 44vw;
+		justify-content: space-between;
+		font-size: 20px;
+		margin: 0;
+		padding: 0;
+	}
 	nav ul li:last-child a:hover{
 		color: red;
 	}
-		.fab.fa-arrow-circle-down{
-		font-size: 1000px;
-		margin: 10px;
+	.fab.fa-arrow-circle-down{
+		font-size: 80px;
+		margin: 3rem;
 	}
 	.fab.fa-arrow-circle-down:hover{
-		background: #0AC693;
-		color:blue;
+		color:aqua;
 	}
+	.fas.fa-arrow-circle-down{
+	font-size: 70px;
+	margin-bottom: 3rem;
+}
+	.fas.fa-arrow-circle-down:hover{
+	color:aqua;
+}
+	.container.post h2{
+		font-size: 15px;
+	}
+
     .post ul {
         list-style: none;
         display: flex;
