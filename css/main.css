@@ -284,7 +284,7 @@ footer .social-links .fab{
 
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
-  
+/*correcion de la direccion de articulos*/  
     .post ul {
         list-style: none;
         display: flex;
@@ -293,7 +293,7 @@ footer .social-links .fab{
         justify-content: center;
 		align-items: center;
     }
-    
+/*correcion en el tamaño de los articulos*/
     .post ul li {
         min-height: 350px;
         max-height: 3500px;
@@ -302,12 +302,12 @@ footer .social-links .fab{
         width: 80%;
     }
 
-
+/*cambio en el tamaño del logo*/
     .logo {
         width: 150px;
         margin: 1.5em;
     }
-
+/*genera el cambio de menu hamburguesa a distribucion en bloque del nav*/
     .show-desktop {
         display: block;
     }
@@ -326,16 +326,16 @@ footer .social-links .fab{
         margin-top: 1em;
     }
 
-    /*TODO: FALTA CSS */
 } 
 
 @media only screen and (min-width: 1024px) {
 
-       /*TODO: FALTA CSS */
+       /*cambio en el tamaño del logo */
 	.header .logo{
 		height: 29.99px;
 	}
 	
+	/*correccion de la distribucion del espacio en el nav*/
 		#menu{
 		display: flex;
 		flex-direction: row;
@@ -345,6 +345,7 @@ footer .social-links .fab{
 		margin: 0;
 		padding: 0;
 	}
+	/*cambiar el color del texto cuando el mouse pasa encima*/
 	nav ul li:last-child a:hover{
 		color: red;
 	}
@@ -359,13 +360,15 @@ footer .social-links .fab{
 	font-size: 70px;
 	margin-bottom: 3rem;
 }
+	/*cambiar el color de la flecha cuando el mouse pasa encima*/
 	.fas.fa-arrow-circle-down:hover{
 	color:aqua;
 }
+	/*aumentar el tamaño del titulo de publicaciones*/
 	.container.post h2{
 		font-size: 15px;
 	}
-
+/*ajustar la seccion de los articulos*/
     .post ul {
         list-style: none;
         display: flex;
@@ -374,6 +377,7 @@ footer .social-links .fab{
         justify-content: center;
 		align-items: center;
     }
+	/*Configuracion general de la seccion de contacto*/
 	.about .container{
 		display: flex;
 		flex-wrap: wrap;
@@ -382,15 +386,19 @@ footer .social-links .fab{
 		align-content: center;
 		margin-bottom: 60px;
 	}
+	/*Ampliar el titulo para que abarque todo el espacio disponible*/
 	.about .container h2{
 		width: 100%;
 	}
+	/*Ajustar tamaño del parrafo*/
 	.about .container .bio-info{
 		width: 50%;
 	}
+	/*Ajustar el tamaño del formulario*/
 	.about .container .contact{
 		width: 40%;
 	}
+	/*Ajustar el tamaño del boton contactar*/
 	.about .container .contact input:last-child{
 		width: 50%;
 	}
@@ -399,7 +407,7 @@ footer .social-links .fab{
 
 @media only screen and (min-width: 1440px) {
 
-    /*TODO: FALTA CSS */
+    /*impedir que crezca al tamaño completo de la pantalla */
     .container {
         width: 80%;
         margin: 0 auto;
